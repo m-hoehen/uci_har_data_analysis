@@ -1,19 +1,19 @@
-## Coursera - Getting and Cleaning Data Course Project
-### Code book
+# Coursera - Getting and Cleaning Data Course Project
+## Code book
 This code book describes the data source, which has been used for the analysis, the variables, which can be found in the final data set file called "tidyset.txt", and the transformations, which have taken place in the "run_analysis.R" script.
 
-#### Data source
+### Data source
 
 * Data for the project
   * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Full description of data set
   * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
-#### Variables
-##### Subject
+### Variables
+#### Subject
 Number identifying the subject being observed performing one of the activities below
 
-##### Activity
+#### Activity
 Activity which the subject was performing while being observed:
 * walking
 * walkingupstairs
@@ -22,7 +22,7 @@ Activity which the subject was performing while being observed:
 * standing
 * laying
 
-##### Measurements / Variables
+#### Measurements / Variables
 All measurements/variables which have been taken for each subject performing each activity
 
 Notes on variable names:
@@ -100,7 +100,7 @@ More details can be found in the features_info.txt file, which is part of the or
 * frequency_bodygyroscopejerkmagnitude-mean()    
 * frequency_bodygyroscopejerkmagnitude-std()
 
-#### Transformation
+### Transformation
 The script "run_analyis.R" takes care of the following steps:
 
 1. Merge the training and the test sets to create one data set.

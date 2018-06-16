@@ -1,5 +1,5 @@
-## Coursera - Getting and Cleaning Data Course Project
-### UCI HAR Dataset - Analysis via script
+# Coursera - Getting and Cleaning Data Course Project
+## UCI HAR Dataset - Analysis via script
 
 This repo contains the required script "run_analysis.R" for analyzing the UCI HAR Dataset, which can be found here:
 
